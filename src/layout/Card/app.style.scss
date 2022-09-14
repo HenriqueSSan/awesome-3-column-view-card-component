@@ -1,0 +1,44 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 50px;
+
+  &__data {
+    color: var(--clr-gray-100);
+
+    h2 {
+      font-size: 2.5rem;
+      color: var(--clr-gray-200);
+      margin-bottom: 1.75rem;
+    }
+
+    p {
+      margin-bottom: 4rem;
+      line-height: 24px;
+    }
+  }
+
+  &:first-child {
+    border-radius: 0.5rem 0 0 0.5rem;
+  }
+
+  &:last-child {
+    border-radius: 0 0.5rem 0.5rem 0;
+  }
+
+  @media screen and (max-width: 769px) {
+    &:first-child {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+
+    &:last-child {
+      border-radius: 0 0 0.5rem 0.5rem;
+    }
+  }
+}
+
+.card__image {
+  margin-bottom: 1.75rem;
+}
