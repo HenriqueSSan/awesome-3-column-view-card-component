@@ -55,13 +55,15 @@ h6 {
 }
 
 ._window_ {
-  max-width: 900px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 4rem 2rem;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 32px;
+  flex-direction: column;
 }
 
 .grid {

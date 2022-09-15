@@ -39,6 +39,20 @@ and off-road adventures."
 rental and arrive in style."
         />
       </div>
+
+      <footer>
+        <div className="attribution">
+          Challenge by{' '}
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+            Frontend Mentor
+          </a>
+          . Coded by{' '}
+          <a target="_black" href="https://henrique-santos-portfolio.netlify.app">
+            Henrique Santos
+          </a>
+          .
+        </div>
+      </footer>
     </section>
   );
 }
